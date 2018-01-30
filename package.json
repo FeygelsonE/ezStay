@@ -26,5 +26,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeygelsonE/ezStay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FeygelsonE/ezStay/issues"
+  },
+  "homepage": "https://github.com/FeygelsonE/ezStay#readme"
 }
