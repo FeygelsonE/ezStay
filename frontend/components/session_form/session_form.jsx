@@ -58,25 +58,40 @@ class SessionForm extends React.Component {
     let lastName = "Last Name:";
     let signupinputs = (
         <div>
-        <label>{firstName}
+        <label>
         <input type="text"
           value={this.state.first_name}
+          placeholder="First name"
           onChange={this.update('first_name')}
           className="signup-input"
         />
         </label>
         <br/>
-        <label>{lastName}
+        <label>
         <input type="text"
           value={this.state.last_name}
+          placeholder="Last name"
           onChange={this.update('last_name')}
           className="signup-input"
         />
         </label>
       </div>
-  );
+    );
+    let signupquestion = (
+      <div>
+        Don't have an account? {this.navLink()}
+      </div>
+    );
+    let loginquestion = (
+      <div>
+        Already have an account? {this.navLink()}
+      </div>
+    );
     if (this.props.type === "login") {
       signupinputs = "";
+      loginquestion = "";
+    } else {
+      signupquestion = "";
     }
     return (
       <div className="login-form-container">
@@ -87,17 +102,19 @@ class SessionForm extends React.Component {
           {this.renderErrors()}
           <div className="login-form">
             <br/>
-            <label>{email}:
+            <label>
               <input type="text"
                 value={this.state.email}
+                placeholder="Email"
                 onChange={this.update('email')}
                 className="login-input"
               />
             </label>
             <br/>
-            <label>{password}:
+            <label>
               <input type="password"
                 value={this.state.password}
+                placeholder="Password"
                 onChange={this.update('password')}
                 className="login-input"
               />
@@ -105,7 +122,10 @@ class SessionForm extends React.Component {
             <br/>
             {signupinputs}
             <br/>
-            <input type="submit" value="Submit" />
+            {signupquestion}
+            {loginquestion}
+            <br/>
+            <input type="submit" value={this.props.type} />
           </div>
         </form>
       </div>
