@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   
+  namespace :api do
+    get 'user/create'
+  end
+
+  get 'user/create'
+
   root "static_pages#root"
   namespace :api, defaults: { format: :json } do
     resources :users, only: [:create, :show]

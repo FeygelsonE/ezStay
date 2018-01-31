@@ -11,6 +11,7 @@ import * as ActionsUtil from './actions/session_actions';
 window.actions = ActionsUtil;
 
 document.addEventListener('DOMContentLoaded', () => {
+
   const store = configureStore();
   window.getState = store.getState;
   window.dispatch = store.dispatch;
