@@ -5,9 +5,9 @@ import configureStore from './store/store';
 import Root from './components/root';
 import * as ActionsUtil from './actions/session_actions';
 
-window.login = login;
-window.signup = signup;
-window.logout = logout;
+// window.login = login;
+// window.signup = signup;
+// window.logout = logout;
 window.actions = ActionsUtil;
 
 document.addEventListener('DOMContentLoaded', () => {
