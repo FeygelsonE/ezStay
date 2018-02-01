@@ -33,9 +33,9 @@ class SessionForm extends React.Component {
 
   navLink() {
     if (this.props.type === 'login') {
-      return <Link to="/signup">sign up instead</Link>;
+      return <Link to="/signup">Sign Up</Link>;
     } else {
-      return <Link to="/login">login instead</Link>;
+      return <Link to="/login">Login</Link>;
     }
   }
 
@@ -56,6 +56,7 @@ class SessionForm extends React.Component {
     let password = "Password";
     let firstName = "First Name:";
     let lastName = "Last Name:";
+    let formButton = "Login";
     let signupinputs = (
         <div>
         <label>
@@ -63,7 +64,7 @@ class SessionForm extends React.Component {
           value={this.state.first_name}
           placeholder="First name"
           onChange={this.update('first_name')}
-          className="signup-input"
+          className="login-input"
         />
         </label>
         <br/>
@@ -72,18 +73,19 @@ class SessionForm extends React.Component {
           value={this.state.last_name}
           placeholder="Last name"
           onChange={this.update('last_name')}
-          className="signup-input"
+          className="login-input"
         />
         </label>
+        <br/>
       </div>
     );
     let signupquestion = (
-      <div>
+      <div className="questions">
         Don't have an account? {this.navLink()}
       </div>
     );
     let loginquestion = (
-      <div>
+      <div className="questions">
         Already have an account? {this.navLink()}
       </div>
     );
@@ -92,6 +94,7 @@ class SessionForm extends React.Component {
       loginquestion = "";
     } else {
       signupquestion = "";
+      formButton = "Sign Up";
     }
     return (
       <div className="login-form-container">
@@ -105,12 +108,13 @@ class SessionForm extends React.Component {
             <label>
               <input type="text"
                 value={this.state.email}
-                placeholder="Email"
+                placeholder="Email Address"
                 onChange={this.update('email')}
                 className="login-input"
               />
             </label>
             <br/>
+            {signupinputs}
             <label>
               <input type="password"
                 value={this.state.password}
@@ -120,12 +124,10 @@ class SessionForm extends React.Component {
               />
             </label>
             <br/>
-            {signupinputs}
+            <input className="login-button" type="submit" value={formButton} />
             <br/>
             {signupquestion}
             {loginquestion}
-            <br/>
-            <input type="submit" value={this.props.type} />
           </div>
         </form>
       </div>
