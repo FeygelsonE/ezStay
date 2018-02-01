@@ -8,18 +8,17 @@ class Navbar extends React.Component {
 
   render () {
    return (
-     <ul className="nav-links">
-       <li>
-         <Link className="nav-signup" to="/signup">
-           Sign Up
-         </Link>
-       </li>
-       <li>
-         <Link className="nav-login" to="/login">
-           Login
-         </Link>
-       </li>
-     </ul>
+     <div className="main-nav">
+       <ul className="left-nav">
+         <h3>ezStay Logo</h3>
+       </ul>
+       <ul className="right-nav">
+         <li>
+           <Link className="nav-signup" to="/signup">Sign Up</Link>
+           <Link className="nav-login" to="/login">Login</Link>
+         </li>
+       </ul>
+     </div>
    );
  }
 }
