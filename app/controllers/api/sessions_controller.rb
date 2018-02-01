@@ -5,7 +5,7 @@ class Api::SessionsController < ApplicationController
       login(@user)
       render "api/users/show"
     else
-      render json: {errors: "Invalid credentials!"}, status: :unprocessable_entity
+      render json: ["Invalid credentials!"], status: :unprocessable_entity
     end
   end
 
@@ -15,7 +15,7 @@ class Api::SessionsController < ApplicationController
       logout
       render json: ["You have signed out"]
     else
-      render json: {error: "No one is signed in"}, status: 404
+      render json: ["No one is signed in"], status: 404
     end
 
   end

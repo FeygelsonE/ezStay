@@ -105,6 +105,11 @@ class SessionForm extends React.Component {
           {this.renderErrors()}
           <div className="login-form">
             <br/>
+            <ul className="session-errors">
+              {this.props.errors.map((error,idx) => (
+                <li className="session-error" key={idx}>{error}</li>
+              ))}
+            </ul>
             <label>
               <input type="text"
                 value={this.state.email}
