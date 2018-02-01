@@ -11,7 +11,27 @@
 }
 
 .right-nav {
+  list-style-type: none;
   width: 100%;
+}
+
+
+.nav-signup {
+  text-decoration: none;
+  float: right;
+  padding: 5px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid #00000000 transparent;
+  background: white;
+  color: #484848;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .nav-login {
@@ -26,26 +46,8 @@
   border-radius: 4px;
   border: 2px solid #00000000 transparent;
   background: white;
-  color: black;
+  color: #484848;
   line-height: 1;
-  font-size: 19px;
-  font-weight: 500;
-}
-
-.nav-signup {
-  text-decoration: none;
-  float: right;
-  padding: 5px;
-  font-family: sans-serif;
-  margin: 0 auto;
-  cursor: pointer;
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
-  border: 2px solid #00000000 transparent;
-  background: white;
-  color: black;
-  line-height: 1;
-  font-size: 19px;
+  font-size: 14px;
   font-weight: 500;
 }
