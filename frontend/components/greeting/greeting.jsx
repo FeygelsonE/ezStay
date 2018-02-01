@@ -7,11 +7,7 @@ const sessionLinks = () => (
       <h1 className="title">ezStay</h1>
       <h2 className="slogan">A home away from home</h2>
     </div>
-    <nav className="login-signup">
-      <Link to="/login">Login</Link>
-      &nbsp; &nbsp;
-      <Link to="/signup">Sign up!</Link>
-    </nav>
+
   </main>
 );
 
