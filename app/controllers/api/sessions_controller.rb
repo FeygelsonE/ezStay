@@ -5,7 +5,7 @@ class Api::SessionsController < ApplicationController
       login(@user)
       render "api/users/show"
     else
-      render json: ["Invalid credentials!"], status: :unprocessable_entity
+      render json: ["Invalid email and password combination"], status: :unprocessable_entity
     end
   end
 

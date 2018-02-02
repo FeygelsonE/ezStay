@@ -15,6 +15,10 @@
   background-color: rgba(0,0,0,0.72); /* Black w/ opacity */
 }
 
+.close-button {
+  color: gray;
+}
+
 .login-form {
   background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
@@ -71,6 +75,9 @@
 }
 
 .session-error {
-  color: white;
-  background: red;
+  display: block;
+  float: center;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: red;
 }

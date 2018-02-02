@@ -10,7 +10,7 @@ class Navbar extends React.Component {
    return (
      <div className="main-nav">
        <ul className="left-nav">
-         <h3>ezStay Logo</h3>
+         <Link to="/">ezStay Logo</Link>
        </ul>
        <ul className="right-nav">
          <li>
