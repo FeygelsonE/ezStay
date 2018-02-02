@@ -48,9 +48,11 @@ export default class AutoComplete extends React.Component {
 
   render() {
     let results = this.matches().map((result, i) => {
-      return (
-        <li className="individual-result" key={i} onClick={this.pickName}><i className="fas fa-map-marker-alt"></i>  {result}</li>
-      );
+      if (result.length >= 1) {
+        return (
+          <li className="individual-result" key={i} onClick={this.pickName}><i className="fas fa-map-marker-alt"></i>  {result}</li>
+        );
+      }    
     });
     return(
       <div>
