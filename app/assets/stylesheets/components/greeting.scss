@@ -1,19 +1,25 @@
-.greeting-page-main {
-  .title-slogan {
-    // display: block;
-    .title {
-      margin: auto;
-      padding-left: 100px;
-    }
-    .slogan {
-      margin: auto;
-      padding-left: 100px;
-    }
-  }
+.title-slogan {
+  margin-top: 11%;
+  margin-left: 17%;
+}
 
-  .login-signup {
-    position: absolute;
-    right: 10px;
-  }
+.title {
+  box-sizing: border-box;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size: 3em;
+  line-height: 50px;
+  letter-spacing: -0.6px;
+  color: #FF5A5F;
+  font-weight: 700;
+}
 
+.slogan {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #484848;
+  font-weight: 300;
 }

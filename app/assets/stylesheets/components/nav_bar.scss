@@ -19,7 +19,7 @@
 .nav-signup {
   text-decoration: none;
   float: right;
-  padding: 5px;
+  padding: 15px;
   font-family: sans-serif;
   margin: 0 auto;
   cursor: pointer;
@@ -37,7 +37,7 @@
 .nav-login {
   text-decoration: none;
   float: right;
-  padding: 5px;
+  padding: 15px;
   font-family: sans-serif;
   margin: 0 auto;
   cursor: pointer;
@@ -50,4 +50,16 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 500;
+}
+
+.nav-login:hover {
+  text-decoration: underline;
+}
+.nav-signup:hover {
+  text-decoration: underline;
+}
+
+.logo-button {
+  margin-left: 5%;
+  color: #FF5A5F;
 }

@@ -10,7 +10,7 @@ class Navbar extends React.Component {
    return (
      <div className="main-nav">
        <ul className="left-nav">
-         <Link to="/">ezStay Logo</Link>
+         <a className="logo-button" href="/"><i class="fas fa-home fa-3x"></i></a>
        </ul>
        <ul className="right-nav">
          <li>
