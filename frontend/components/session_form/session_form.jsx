@@ -128,11 +128,13 @@ class SessionForm extends React.Component {
 
           <div className="login-form">
             <Link className="close-button" to="/"><i class="far fa-times-circle fa-lg"></i></Link>
+            <br/>
+            <br/>
             <ul className="session-errors">
               {this.props.errors.map((error,idx) => (
                 <li className="session-error" key={idx}>{error}</li>
               ))}
-
+            <br/>
             </ul>
             <label>
               <input type="text"
