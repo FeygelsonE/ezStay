@@ -12,6 +12,7 @@ class SessionForm extends React.Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleGuest = this.handleGuest.bind(this);
+    this.handleErrors = this.handleErrors.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -23,6 +24,14 @@ class SessionForm extends React.Component {
   update(field) {
     return e => this.setState({
       [field]: e.currentTarget.value
+    });
+  }
+
+  handleErrors(e) {
+    this.props.clearErrors();
+    this.setState({
+      email: "", password: "",
+      first_name: "", last_name: ""
     });
   }
 
@@ -98,12 +107,12 @@ class SessionForm extends React.Component {
     );
     let signupquestion = (
       <div className="questions">
-        Don't have an account? {this.navLink()}
+        Don't have an account? <Link to='/signup' onClick={this.handleErrors}>Sign Up</Link>
       </div>
     );
     let loginquestion = (
       <div className="questions">
-        Already have an account? {this.navLink()}
+        Already have an account? <Link to='/login' onClick={this.handleErrors}>Log In</Link>
       </div>
     );
     if (this.props.type === "login") {

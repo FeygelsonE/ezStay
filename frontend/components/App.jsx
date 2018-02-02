@@ -8,9 +8,9 @@ import Navbar from './nav_bar/nav_bar';
 const App = () => (
   <Fragment>
     <Navbar />
-    <h1>ezStay</h1>  
+    <h1>ezStay</h1>
     <GreetingContainer />
-
+    
     <AuthRoute exact path="/login" component={SessionFormContainer} />
     <AuthRoute exact path="/signup" component={SessionFormContainer} />
 

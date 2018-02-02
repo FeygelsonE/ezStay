@@ -20,14 +20,16 @@
 }
 
 .login-form {
+  border-radius: 6px;
   background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
 }
 
 .login-input {
+  font-size: 19px;
   display: block;
   margin: 0 auto;
   padding-bottom: 3px;
