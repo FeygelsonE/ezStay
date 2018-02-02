@@ -3,13 +3,13 @@ import GreetingContainer from './greeting/greeting_container';
 import SessionFormContainer from './session_form/session_form_container';
 import { Route, Redirect } from 'react-router-dom';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
-import Navbar from './nav_bar/nav_bar';
+import NavbarContainer from './nav_bar/nav_bar_container';
 import { Switch } from 'react-router-dom';
 
 const App = () => (
   <Fragment>
     <br/>
-    <Navbar />
+    <NavbarContainer />
     <GreetingContainer />
       <Switch>
         <AuthRoute exact path="/login" component={SessionFormContainer} />

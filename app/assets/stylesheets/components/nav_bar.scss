@@ -52,14 +52,37 @@
   font-weight: 500;
 }
 
+.nav-logout {
+  border: none;
+  text-decoration: none;
+  float: right;
+  padding: 15px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid #00000000 transparent;
+  background: white;
+  color: #484848;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .nav-login:hover {
   text-decoration: underline;
 }
 .nav-signup:hover {
   text-decoration: underline;
 }
+.nav-logout:hover {
+  text-decoration: underline;
+}
 
 .logo-button {
-  margin-left: 5%;
+  margin-left: 3%;
+  padding: 3px;
   color: #FF5A5F;
 }

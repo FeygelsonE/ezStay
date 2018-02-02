@@ -127,7 +127,7 @@ class SessionForm extends React.Component {
       <div className="login-form-container">
 
           <div className="login-form">
-            <a className="close-button" href="/"><i class="far fa-times-circle fa-lg"></i></a>
+            <Link className="close-button" to="/"><i class="far fa-times-circle fa-lg"></i></Link>
             <ul className="session-errors">
               {this.props.errors.map((error,idx) => (
                 <li className="session-error" key={idx}>{error}</li>

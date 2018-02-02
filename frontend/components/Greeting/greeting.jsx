@@ -18,13 +18,11 @@ const personalGreeting = (currentUser, logout) => (
       <h1 className="title">ezStay</h1>
       <h2 className="slogan">Book unique homes and</h2>
       <h2 className="slogan">experiences all over the world.</h2>
-      <button className="header-button" onClick={logout}>Log Out</button>
     </div>
   </main>
 );
 
 const Greeting = ({ currentUser, logout }) => {
-  console.log("test",currentUser);
   return (
   currentUser ? personalGreeting(currentUser, logout) : sessionLinks()
 );};
