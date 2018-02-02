@@ -5,12 +5,14 @@ import { Route, Redirect } from 'react-router-dom';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 import NavbarContainer from './nav_bar/nav_bar_container';
 import { Switch } from 'react-router-dom';
+import Locations from './search_bar/location_names';
 
 const App = () => (
   <Fragment>
     <br/>
     <NavbarContainer />
     <GreetingContainer />
+    <Locations />
       <Switch>
         <AuthRoute exact path="/login" component={SessionFormContainer} />
         <AuthRoute exact path="/signup" component={SessionFormContainer} />

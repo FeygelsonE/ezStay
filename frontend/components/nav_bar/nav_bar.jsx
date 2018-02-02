@@ -6,7 +6,7 @@ export const Rightnav = ({ currentUser, logout }) => {
     return (
       <div className="main-nav">
         <ul className="left-nav">
-          <a className="logo-button" href="/"><i class="fas fa-home fa-2x"></i></a>
+          <a className="logo-button" href="/"><i className="fas fa-home fa-2x"></i></a>
         </ul>
         <ul className="right-nav">
           <button className="nav-logout" onClick={logout}>Log Out</button>
@@ -17,7 +17,7 @@ export const Rightnav = ({ currentUser, logout }) => {
     return (
       <div className="main-nav">
         <ul className="left-nav">
-          <a className="logo-button" href="/"><i class="fas fa-home fa-2x"></i></a>
+          <a className="logo-button" href="/"><i className="fas fa-home fa-2x"></i></a>
         </ul>
         <ul className="right-nav">
           <Link className="nav-login" to="/login">Login</Link>

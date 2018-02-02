@@ -1,0 +1,32 @@
+.search-container {
+  padding-top: 10px;
+  border-radius: 6px;
+  background-color: #fefefe;
+  margin-left: 17%;
+  width: 50%;
+}
+
+.search-input {
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3px;
+  width: 100%;
+  line-height: 25px;
+}
+
+.search-input::placeholder {
+  font-size: 19px;
+  font-weight: 100;
+
+  // color: #484848;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+.search-results {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+  font-family: sans-serif;
+}
