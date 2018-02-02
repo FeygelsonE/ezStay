@@ -36,15 +36,20 @@ export default class AutoComplete extends React.Component {
     return matches;
   }
 
+
   pickName(e) {
     let name = e.currentTarget.innerText;
-    this.setState({inputVal: name});
+    //incomplete
+    //if name = Mission District, redirect to mission district page
+    //LATER REMEMBER TO REDIRECT TO PAGE YOU WANT TO GO TO BEFORE
+    //RESETTING INPUTVAL TO ''
+    this.setState({inputVal: ''});
   }
 
   render() {
     let results = this.matches().map((result, i) => {
       return (
-        <li key={i} onClick={this.pickName}><i className="fas fa-map-marker-alt"></i>  {result}</li>
+        <li className="individual-result" key={i} onClick={this.pickName}><i className="fas fa-map-marker-alt"></i>  {result}</li>
       );
     });
     return(
