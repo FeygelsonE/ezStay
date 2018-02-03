@@ -127,7 +127,7 @@ class SessionForm extends React.Component {
       <div className="login-form-container">
 
           <div className="login-form">
-            <Link className="close-button" to="/"><i className="far fa-times-circle fa-lg"></i></Link>
+            <Link className="close-button" to="/" onClick={this.handleErrors}><i className="far fa-times-circle fa-lg"></i></Link>
             <br/>
             <br/>
             <ul className="session-errors">
