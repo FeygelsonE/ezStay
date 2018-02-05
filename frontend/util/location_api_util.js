@@ -1,4 +1,5 @@
 export const newLoc = loc => {
+  console.log(loc);
   return $.ajax({
     url: '/api/locations',
     method: 'POST',

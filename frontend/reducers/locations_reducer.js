@@ -6,7 +6,7 @@ const locationsReducer = ( state = {}, action ) => {
   let newState = merge({}, state);
   switch (action.type) {
     case RECEIVE_LOCATION:
-      return merge({}, state, {[action.location.id]: action.location});
+      return merge({}, state, {[action.currentLocation.id]: action.location});
     case RECEIVE_LOCATIONS:
       return action.locations;
     case DELETE_LOCATION:

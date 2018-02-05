@@ -3,6 +3,7 @@ import * as APIUtil from '../util/location_api_util';
 export const RECEIVE_LOCATION = 'RECEIVE_LOCATION';
 export const RECEIVE_LOCATIONS = 'RECEIVE_LOCATIONS';
 export const RECEIVE_LOCATION_ERRORS = 'RECEIVE_LOCATION_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
 export const DELETE_LOCATION = 'DELETE_LOCATION';
 
 export const receiveLocation = currentLocation => ({
@@ -18,6 +19,10 @@ export const receiveLocations = locations => ({
 export const receiveLocationErrors = errors => ({
   type: RECEIVE_LOCATION_ERRORS,
   errors
+});
+
+export const clearErrors = () => ({
+  type: CLEAR_ERRORS
 });
 
 export const deleteLocation = currentLocation => ({

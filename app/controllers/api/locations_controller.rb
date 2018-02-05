@@ -4,7 +4,7 @@ class Api::LocationsController < ApplicationController
     if @location.save
       render :show
     else
-      render json: @location.errors.full_messages
+      render json: @location.errors.full_messages, status: 422
     end
   end
 
@@ -13,7 +13,7 @@ class Api::LocationsController < ApplicationController
     if @location
       render :show
     else
-      render json: ['Location is unavailable']
+      render json: ['Location is unavailable'], status: 422
     end
   end
 
@@ -25,17 +25,17 @@ class Api::LocationsController < ApplicationController
     if @location && @location.update(location_params)
       render :show
     else
-      render json: ['Unable to update location']
+      render json: ['Unable to update location'], status: 422
     end
   end
 
   def destroy
-    @location = Location.find_by(:id: params[:id])
+    @location = Location.find_by(id: params[:id])
     @location.destroy!
   end
 
   def location_params
-    params.require(:location).permit(:title, :description, :district, :address, :price, :rooms
+    params.require(:loc).permit(:title, :description, :district, :address, :price, :rooms,
                                     :beds, :baths, :guests, :cancellation, :kitchen, :tv, :heating,
                                     :ac, :washer, :dryer, :wifi, :pool, :hot_tub, :image_url)
   end
