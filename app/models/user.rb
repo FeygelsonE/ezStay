@@ -6,6 +6,11 @@ class User < ApplicationRecord
 
   after_initialize :ensure_session_token
 
+  has_many :locations,
+    primary_key: :id,
+    foreign_key: :host_id,
+    class_name: 'Location'
+
   attr_reader :password
 
   def self.find_by_credentials(email, password)
