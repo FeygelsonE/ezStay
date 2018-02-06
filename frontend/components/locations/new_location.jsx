@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link, withRouter, Redirect } from 'react-router-dom';
 
 class NewLocation extends React.Component {
   constructor(props) {
@@ -26,6 +26,10 @@ class NewLocation extends React.Component {
       hot_tub: false,
       image_url: ''
     };
+    this.handleErrors = this.handleErrors.bind(this);
+    this.handleNew = this.handleNew.bind(this);
+    this.handleUpdate = this.handleUpdate.bind(this);
+
   }
 
   update(field) {
@@ -41,8 +45,9 @@ class NewLocation extends React.Component {
   handleNew(e) {
     e.preventDefault();
     const loc = this.state;
-    console.log(loc);
-    this.props.newLocation(loc);
+    this.props.newLocation(loc).then((createdLocation) => {
+      this.props.history.push(`/locations/${createdLocation.currentLocation.id}`);}
+    );
   }
 
   handleUpdate(e) {

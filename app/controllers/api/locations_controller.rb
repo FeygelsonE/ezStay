@@ -2,7 +2,7 @@ class Api::LocationsController < ApplicationController
   def create
     @location = current_user.locations.new(location_params)
     if @location.save
-      render :show
+      render "api/locations/show"
     else
       render json: @location.errors.full_messages, status: 422
     end
@@ -18,6 +18,7 @@ class Api::LocationsController < ApplicationController
   end
 
   def index
+    @locations = current_user.locations
   end
 
   def update

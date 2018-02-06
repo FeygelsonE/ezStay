@@ -29,8 +29,9 @@ export const deleteLocation = currentLocation => ({
   type: DELETE_LOCATION
 });
 
+
 export const newLocation = location => dispatch => {
-  APIUtil.newLoc(location)
+  return APIUtil.newLoc(location)
     .then(createdLocation => dispatch(receiveLocation(createdLocation)),
       errors => dispatch(receiveLocationErrors(errors.responseJSON))
     );
@@ -42,8 +43,8 @@ export const getLocation = id => dispatch => {
     );
 };
 
-export const getLocations = something => dispatch => {
-  APIUtil.getLocs(something)
+export const getLocations = () => dispatch => {
+  APIUtil.getLocs()
     .then(locations => dispatch(receiveLocations(locations))
   );
 };

@@ -1,5 +1,4 @@
 export const newLoc = loc => {
-  console.log(loc);
   return $.ajax({
     url: '/api/locations',
     method: 'POST',
@@ -7,11 +6,10 @@ export const newLoc = loc => {
   });
 };
 
-export const getLocs = something => {
+export const getLocs = () => {
   return $.ajax({
     url: '/api/locations',
-    method: 'GET',
-    data: { something }
+    method: 'GET'
   });
 };
 

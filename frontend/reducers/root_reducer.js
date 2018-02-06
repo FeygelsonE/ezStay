@@ -5,7 +5,7 @@ import locationReducer from './locations_reducer';
 
 const rootReducer = combineReducers({
   session: sessionReducer,
-  location: locationReducer,
+  locations: locationReducer,
   errors: errorsReducer
 });
 
