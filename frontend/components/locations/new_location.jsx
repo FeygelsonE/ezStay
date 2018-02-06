@@ -88,11 +88,11 @@ class NewLocation extends React.Component {
               />
             </label>
             <label>
-              <input type="text"
+              <textarea
                 value={this.state.description}
                 placeholder="Description"
                 onChange={this.update('description')}
-                className="login-input"
+                className="location-description"
               />
             </label>
             <label>

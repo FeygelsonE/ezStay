@@ -1,0 +1,60 @@
+.single-location-container {
+  display: block;
+}
+.location-title {
+  margin-left: 5.5%;
+  width: 50%;
+  display: flex;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+  font-family: Helvetica sans-serif;
+}
+
+.location-district {
+  margin-left: 5.5%;
+  width: 50%;
+  display: flex;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.home-details {
+  margin-left: 5.5%;
+  width: 50%;
+  display: flex;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.location-description {
+  margin-left: 5.5%;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.location-checkout {
+  width: 20%;
+  float: right;
+  display: flex;
+  position: relative;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+}
