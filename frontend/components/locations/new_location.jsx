@@ -92,7 +92,7 @@ class NewLocation extends React.Component {
                 value={this.state.description}
                 placeholder="Description"
                 onChange={this.update('description')}
-                className="location-description"
+                className="location-description2"
               />
             </label>
             <label>

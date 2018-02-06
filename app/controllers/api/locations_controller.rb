@@ -18,7 +18,11 @@ class Api::LocationsController < ApplicationController
   end
 
   def index
-    @locations = current_user.locations
+    @locations = Location.all
+  end
+
+  def getAllLocations
+    @locations = Location.all
   end
 
   def update
@@ -38,7 +42,7 @@ class Api::LocationsController < ApplicationController
   def location_params
     params.require(:loc).permit(:title, :description, :district, :address, :price, :rooms,
                                     :beds, :baths, :guests, :cancellation, :kitchen, :tv, :heating,
-                                    :ac, :washer, :dryer, :wifi, :pool, :hot_tub, :image_url)
+                                    :ac, :washer, :dryer, :wifi, :pool, :hot_tub, :image_url, :long, :lat)
   end
 
 

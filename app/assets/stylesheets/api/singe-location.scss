@@ -1,9 +1,13 @@
 .single-location-container {
-  display: block;
+  display: flex;
+}
+
+.left-location-container {
+  width: 60%;
 }
 .location-title {
   margin-left: 5.5%;
-  width: 50%;
+
   display: flex;
   font-size: 32px;
   line-height: 40px;
@@ -14,7 +18,7 @@
 
 .location-district {
   margin-left: 5.5%;
-  width: 50%;
+
   display: flex;
   font-size: 17px;
   line-height: 22px;
@@ -26,7 +30,7 @@
 
 .home-details {
   margin-left: 5.5%;
-  width: 50%;
+
   display: flex;
   font-size: 17px;
   line-height: 17px;
@@ -39,22 +43,42 @@
 .location-description {
   margin-left: 5.5%;
   display: flex;
-  width: 50%;
-  height: 100%;
   font-size: 17px;
   line-height: 17px;
   letter-spacing: 0.2px;
   font-weight: 300;
   font-family: Helvetica sans-serif;
-  color: #484848
+  color: #484848;
+  overflow-y: scroll;
+  max-height:400px;
 }
 
 .location-checkout {
-  width: 20%;
+
   float: right;
+  margin: 0px;
   display: flex;
-  position: relative;
-  border: 5px solid black;
-  height: 100px;
-  width: 100px;
+  position: sticky;
+  border: 1px solid #e4e4e4;
+  height: 300px;
+  width: 270px;
+}
+
+.right-location-container {
+  margin-right: 6.5%;
+  width: 40%;
+}
+
+.price-style {
+  padding-left: 20px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  color: #484848;
+}
+
+.location-price {
+
 }

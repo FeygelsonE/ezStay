@@ -4,7 +4,9 @@ import SingleLocation from './single_location';
 
 const mapStateToProps = (state, ownProps) => {
   const locationId = ownProps.match.params.locationId;
-
+  console.log("Own Props", ownProps);
+  console.log("State", state);
+  console.log("State.locations", state.locations);
   return {
     singleLocation: state.locations[locationId],
     locationId
