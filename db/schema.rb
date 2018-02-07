@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180206192117) do
+ActiveRecord::Schema.define(version: 20180207172036) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,12 +37,22 @@ ActiveRecord::Schema.define(version: 20180206192117) do
     t.boolean "wifi", default: false
     t.boolean "pool", default: false
     t.boolean "hot_tub", default: false
-    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "host_id"
     t.float "lat"
     t.float "long"
+    t.string "image_url"
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "location_id", null: false
+    t.integer "rating", null: false
+    t.text "body", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "title"
   end
 
   create_table "users", force: :cascade do |t|

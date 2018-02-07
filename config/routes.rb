@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  namespace :api do
+    get 'review/create'
+  end
+
+  namespace :api do
+    get 'review/destroy'
+  end
+
   root "static_pages#root"
 
   namespace :api, defaults: { format: :json } do

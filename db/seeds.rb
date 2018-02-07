@@ -80,19 +80,19 @@ location1 = Location.create(
   title: 'Garden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
 )
 
 location2 = Location.create(
   title: 'arden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
 )
 
 location3 = Location.create(
   title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
 )

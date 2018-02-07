@@ -21,49 +21,69 @@ class SingleLocation extends React.Component {
     }
     return (
       <div className="single-location-container">
-        <div>
-          {this.props.singleLocation.image_url}
+        <div className="single-location-image-container">
+          <img className="single-location-image" src={this.props.singleLocation.image_url} />
         </div>
-        <div className="left-location-container">
-          <div className="location-title">
-            {this.props.singleLocation.title}
-          </div>
-          <div className="location-district">
-            {this.props.singleLocation.district}
-          </div>
-          <br/>
-          <div className="home-details">
-            <i className="fas fa-users"></i> &nbsp; {this.props.singleLocation.guests} guests &nbsp;
-            <i className="fab fa-codepen"></i> &nbsp; {this.props.singleLocation.rooms} bedrooms &nbsp;
-            <i className="fas fa-bed"></i> &nbsp; {this.props.singleLocation.beds} beds &nbsp;
-            <i className="fas fa-bath"></i> &nbsp; {this.props.singleLocation.baths} baths &nbsp;
-          </div>
-          <br/>
-          <div className="location-description">
-            {this.props.singleLocation.description}
+        <div className="left-right-location-container">
+          <div className="left-location-container">
+            <div className="location-title">
+              {this.props.singleLocation.title}
+            </div>
+            <div className="location-district">
+              {this.props.singleLocation.district}
+            </div>
+            <br/>
+            <div className="home-details">
+              <i className="fas fa-users"></i> &nbsp; {this.props.singleLocation.guests} guests &nbsp;
+              <i className="fab fa-codepen"></i> &nbsp; {this.props.singleLocation.rooms} bedrooms &nbsp;
+              <i className="fas fa-bed"></i> &nbsp; {this.props.singleLocation.beds} beds &nbsp;
+              <i className="fas fa-bath"></i> &nbsp; {this.props.singleLocation.baths} baths &nbsp;
+            </div>
+            <br/>
+            <div className="location-description">
+              {this.props.singleLocation.description}
+
+            </div>
+            <br/>
+            <div className="location-amenities">
+              <hr></hr>
+              <div className="amenities-title">Amenities</div>
+              <br/>
+              <div className="amenities-icons">
+                <i class="fas fa-tv"></i>  TV&nbsp;
+                <i class="fas fa-snowflake"></i> Air Conditioning&nbsp;
+                <i class="fas fa-tint"></i> Washer&nbsp;
+                <br/>
+                <br/>
+                <i class="fas fa-fire"></i> Dryer &nbsp;
+                <i class="fas fa-wifi"></i> Wifi&nbsp;
+                <i class="fas fa-utensils"></i> Utensils&nbsp;
+              </div>
+            </div>
+            <br/>
+
+
+            <div className="location-cancellation">
+              <hr></hr>
+              <div className="cancellation-title">Cancellation</div>
+              <br/>
+              <div className="cancellation-policy">
+                {this.props.singleLocation.cancellation}
+              </div>
+              <br/>
+              <hr></hr>
+            </div>
 
           </div>
-          <br/>
-          <div className="location-amenities">
-            Amenities
-            {this.props.singleLocation.kitchen}
-            {this.props.singleLocation.tv}
-            {this.props.singleLocation.ac}
-            {this.props.singleLocation.washer}
-            {this.props.singleLocation.dryer}
-            {this.props.singleLocation.wifi}
-            {this.props.singleLocation.pool}
-            {this.props.singleLocation.hot_tub}
-          </div>
-          {this.props.singleLocation.address}
-          {this.props.singleLocation.cancellation}
-        </div>
-        <div className="right-location-container">
-          <div className="location-checkout">
-            <div className="location-price">
-              <br/>
-              <span className="price-style">${this.props.singleLocation.price}</span> per night
+          <div className="right-location-container">
+            <div className="location-checkout">
+              <div className="location-price">
+                <br/>
+                <span className="price-style">${this.props.singleLocation.price}</span> per night
+              </div>
+              <hr></hr>
             </div>
+
           </div>
         </div>
       </div>

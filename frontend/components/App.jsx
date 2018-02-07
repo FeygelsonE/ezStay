@@ -8,6 +8,7 @@ import NavbarContainer from './nav_bar/nav_bar_container';
 import { Switch } from 'react-router-dom';
 import Locations from './search_bar/location_names';
 import SingleLocationContainer from './locations/single_location_container';
+import AllLocationsContainer from './locations/all_locations_container';
 
 const App = () => (
   <Fragment>
@@ -26,8 +27,10 @@ const App = () => (
         <AuthRoute exact path="/signup" component={SessionFormContainer} />
         <LocationRoute exact path="/locations" component={NewLocationContainer} />
         <Route exact path="/locations/:locationId" component={SingleLocationContainer} />
+        <Route exact path="/explore" component={AllLocationsContainer} />
         <Redirect to="/"/>
       </Switch>
+
   </Fragment>
 );
 

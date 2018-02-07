@@ -1,7 +1,22 @@
 .single-location-container {
+
+}
+
+.left-right-location-container {
   display: flex;
 }
 
+.single-location-image-container {
+  display: block;
+  width: 100%;
+
+}
+
+.single-location-image {
+  display: block;
+  width: 100%;
+  height: 500px;
+}
 .left-location-container {
   width: 60%;
 }
@@ -33,7 +48,7 @@
 
   display: flex;
   font-size: 17px;
-  line-height: 17px;
+  line-height: 19px;
   letter-spacing: 0.2px;
   font-weight: 300;
   font-family: Helvetica sans-serif;
@@ -44,7 +59,7 @@
   margin-left: 5.5%;
   display: flex;
   font-size: 17px;
-  line-height: 17px;
+  line-height: 19px;
   letter-spacing: 0.2px;
   font-weight: 300;
   font-family: Helvetica sans-serif;
@@ -54,9 +69,8 @@
 }
 
 .location-checkout {
-
   float: right;
-  margin: 0px;
+  margin-right: 20%;
   display: flex;
   position: sticky;
   border: 1px solid #e4e4e4;
@@ -65,7 +79,6 @@
 }
 
 .right-location-container {
-  margin-right: 6.5%;
   width: 40%;
 }
 
@@ -81,4 +94,59 @@
 
 .location-price {
 
+}
+
+.location-amenities {
+  margin-left: 5.5%;
+
+}
+
+.amenities-title {
+  display: flex;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.amenities-icons {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-weight: 450;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.location-cancellation {
+  margin-left: 5.5%;
+}
+
+.cancellation-title {
+  display: flex;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: Helvetica sans-serif;
+  color: #484848
+}
+
+.cancellation-policy {
+  display: flex;
+  font-size: 17px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-family: Helvetica sans-serif;
+  color: #484848;
+}
+
+hr {
+  display: flex;
+  border: none;
+  height: 1px;
+  background-color: #DBDBDB;
 }
