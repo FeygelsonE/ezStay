@@ -1,6 +1,7 @@
 class Api::ReviewsController < ApplicationController
   def create
     @review = current_user.reviews.new(review_params)
+
     if !(current_user.locations.find_by(id: params[:review][:location_id]) == nil)
       render json: ['Cannot review own location'], status: 422
     elsif @review.save
@@ -23,6 +24,6 @@ class Api::ReviewsController < ApplicationController
   end
 
   def review_params
-    params.require(:review).permit(:user_id, :location_id, :body, :title, :rating)
+    params.require(:review).permit(:user_id, :location_id, :body, :title, :rating, :first_name)
   end
 end

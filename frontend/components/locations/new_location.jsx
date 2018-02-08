@@ -72,6 +72,7 @@ class NewLocation extends React.Component {
     if (this.props.loggedIn) {
       return (
         <div className="location-form-container">
+          <div className="new-location-header">Host Your Home!</div>
           <div className="new-location-form">
             <ul className="session-errors">
               {this.props.errors.map((error,idx) => (
@@ -79,7 +80,7 @@ class NewLocation extends React.Component {
               ))}
             <br/>
             </ul>
-            <label>
+            <label className="new-location-labels"> Title
               <input type="text"
                 value={this.state.title}
                 placeholder="Title"
@@ -87,7 +88,7 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>
+            <label className="new-location-labels"> Description
               <textarea
                 value={this.state.description}
                 placeholder="Description"
@@ -95,7 +96,7 @@ class NewLocation extends React.Component {
                 className="location-description2"
               />
             </label>
-            <label>
+            <label className="new-location-labels"> District
               <input type="text"
                 value={this.state.district}
                 placeholder="District"
@@ -103,7 +104,7 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>
+            <label className="new-location-labels"> Address
               <input type="text"
                 value={this.state.address}
                 placeholder="Address"
@@ -111,7 +112,15 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>Price
+            <label className="new-location-labels">Cancellation Policy
+              <input type="text"
+                value={this.state.cancellation}
+                placeholder="Cancellation Policy"
+                onChange={this.update('cancellation')}
+                className="login-input"
+              />
+            </label>
+            <label className="new-location-labels">Price per night
               <input type="number"
                 value={this.state.price}
                 placeholder="Price"
@@ -119,31 +128,7 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>Rooms
-              <input type="number"
-                value={this.state.rooms}
-                placeholder="Rooms"
-                onChange={this.update('rooms')}
-                className="login-input"
-              />
-            </label>
-            <label>Beds
-              <input type="number"
-                value={this.state.beds}
-                placeholder="Beds"
-                onChange={this.update('beds')}
-                className="login-input"
-              />
-            </label>
-            <label>Baths
-              <input type="number"
-                value={this.state.baths}
-                placeholder="Baths"
-                onChange={this.update('baths')}
-                className="login-input"
-              />
-            </label>
-            <label>Guests
+            <label className="new-location-labels">Guests
               <input type="number"
                 value={this.state.guests}
                 placeholder="Guests"
@@ -151,17 +136,36 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>
-              <input type="text"
-                value={this.state.cancellation}
-                placeholder="Cancellation"
-                onChange={this.update('cancellation')}
+            <label className="new-location-labels">Rooms
+              <input type="number"
+                value={this.state.rooms}
+                placeholder="Rooms"
+                onChange={this.update('rooms')}
+                className="login-input"
+              />
+            </label>
+            <label className="new-location-labels">Beds
+              <input type="number"
+                value={this.state.beds}
+                placeholder="Beds"
+                onChange={this.update('beds')}
+                className="login-input"
+              />
+            </label>
+            <label className="new-location-labels">Baths
+              <input type="number"
+                value={this.state.baths}
+                placeholder="Baths"
+                onChange={this.update('baths')}
                 className="login-input"
               />
             </label>
             <br/>
             <input className="login-button" type="submit" onClick={(ev) => this.handleNew(ev) } value="Create" />
           </div>
+          <br/>
+          <br/>
+          <br/>
         </div>
       );
     } else {

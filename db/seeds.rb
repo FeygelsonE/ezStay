@@ -115,7 +115,7 @@ location6 = Location.create(
   title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://tribunen.com/wp-content/uploads/2017/11/nice-kitchen-design-ideas-and-decor-fresh-pictures-of-kitchens.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://i.pinimg.com/736x/bf/82/e3/bf82e3a0883a2b236c69e472e19417a4--cool-kitchen-appliances-design-for-house.jpg"
 )
 
 location7 = Location.create(
@@ -219,8 +219,12 @@ location20 = Location.create(
 Review.destroy_all
 
 review1 = Review.create(
-            user_id: 7, location_id: 1,
-            rating: 3, body: "Great place to styay", title: "Enjoyed it")
+            user_id: 1, location_id: 1,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
 review2 = Review.create(
-            user_id: 8, location_id: 1,
+            user_id: 2, location_id: 1,
             rating: 2, body: "Awesome place", title: "A lot of fun")
+review3 = Review.create(
+            user_id: 3, location_id: 1,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")

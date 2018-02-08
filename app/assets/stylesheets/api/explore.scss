@@ -7,11 +7,17 @@
 
 .individual-explore-item {
   // display: flex;
+  padding: 10px;
 }
 .explore-image {
   // display: flex;
-  width: 250px;
-  height: 250px;
+  width: 275px;
+  height: 275px;
+}
+
+.explore-image:hover {
+    background-color:#000;
+    opacity:0.5;
 }
 
 .explore-title {

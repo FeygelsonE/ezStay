@@ -113,6 +113,7 @@ class SingleLocation extends React.Component {
             </div>
           </div>
         </div>
+        <br/>
       </div>
     );
   }
