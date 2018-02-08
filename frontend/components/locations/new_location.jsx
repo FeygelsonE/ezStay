@@ -159,75 +159,6 @@ class NewLocation extends React.Component {
                 className="login-input"
               />
             </label>
-            <label>Kitchen
-              <input type="checkbox"
-                value={this.state.kitchen}
-                onChange={this.update('kitchen')}
-              />
-            </label>
-            <br/>
-            <label>TV
-              <input type="checkbox"
-                value={this.state.tv}
-                onChange={this.update('tv')}
-              />
-            </label>
-            <br/>
-            <label>Heating
-              <input type="checkbox"
-                value={this.state.heating}
-                onChange={this.update('heating')}
-              />
-            </label>
-            <br/>
-            <label>AC
-              <input type="checkbox"
-                value={this.state.ac}
-                onChange={this.update('ac')}
-              />
-            </label>
-            <br/>
-            <label>Washer
-              <input type="checkbox"
-                value={this.state.washer}
-                onChange={this.update('washer')}
-              />
-            </label>
-            <br/>
-            <label>Dryer
-              <input type="checkbox"
-                value={this.state.dryer}
-                onChange={this.update('dryer')}
-              />
-            </label>
-            <br/>
-            <label>Wifi
-              <input type="checkbox"
-                value={this.state.wifi} checked
-                onChange={this.update('wifi')}
-              />
-            </label>
-            <br/>
-            <label>Pool
-              <input type="checkbox"
-                value={this.state.pool}
-                onChange={this.update('pool')}
-              />
-            </label>
-            <br/>
-            <label>Hot Tub
-              <input type="checkbox"
-                value={this.state.hot_tub}
-                onChange={this.update('hot_tub')}
-              />
-            </label>
-            <br/>
-            <label>Image
-              <input type="text"
-                value={this.state.image_url}
-                onChange={this.update('image_url')}
-              />
-            </label>
             <br/>
             <input className="login-button" type="submit" onClick={(ev) => this.handleNew(ev) } value="Create" />
           </div>
@@ -242,3 +173,74 @@ class NewLocation extends React.Component {
 }
 
 export default withRouter(NewLocation);
+
+
+// <label>Kitchen
+//   <input type="checkbox"
+//     value={this.state.kitchen}
+//     onChange={this.update('kitchen')}
+//   />
+// </label>
+// <br/>
+// <label>TV
+//   <input type="checkbox"
+//     value={this.state.tv}
+//     onChange={this.update('tv')}
+//   />
+// </label>
+// <br/>
+// <label>Heating
+//   <input type="checkbox"
+//     value={this.state.heating}
+//     onChange={this.update('heating')}
+//   />
+// </label>
+// <br/>
+// <label>AC
+//   <input type="checkbox"
+//     value={this.state.ac}
+//     onChange={this.update('ac')}
+//   />
+// </label>
+// <br/>
+// <label>Washer
+//   <input type="checkbox"
+//     value={this.state.washer}
+//     onChange={this.update('washer')}
+//   />
+// </label>
+// <br/>
+// <label>Dryer
+//   <input type="checkbox"
+//     value={this.state.dryer}
+//     onChange={this.update('dryer')}
+//   />
+// </label>
+// <br/>
+// <label>Wifi
+//   <input type="checkbox"
+//     value={this.state.wifi} checked
+//     onChange={this.update('wifi')}
+//   />
+// </label>
+// <br/>
+// <label>Pool
+//   <input type="checkbox"
+//     value={this.state.pool}
+//     onChange={this.update('pool')}
+//   />
+// </label>
+// <br/>
+// <label>Hot Tub
+//   <input type="checkbox"
+//     value={this.state.hot_tub}
+//     onChange={this.update('hot_tub')}
+//   />
+// </label>
+// <br/>
+// <label>Image
+//   <input type="text"
+//     value={this.state.image_url}
+//     onChange={this.update('image_url')}
+//   />
+// </label>

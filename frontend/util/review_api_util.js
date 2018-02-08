@@ -1,8 +1,15 @@
 export const newReview = review => {
   return $.ajax({
-    url: '/api/reviews',
+    url: `api/locations/${review.location_id}/reviews`,
     method: 'POST',
     data: { review }
+  });
+};
+
+export const getRevs = locationId => {
+  return $.ajax({
+    url: `api/locations/${locationId}/reviews`,
+    method: 'GET'
   });
 };
 

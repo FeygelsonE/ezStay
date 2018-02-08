@@ -1,5 +1,8 @@
 import React from 'react';
+import ReactStars from 'react-stars';
+
 import { Link, withRouter, Redirect } from 'react-router-dom';
+import ReviewContainer from '../reviews/review_container';
 
 class SingleLocation extends React.Component {
   constructor(props) {
@@ -7,11 +10,31 @@ class SingleLocation extends React.Component {
   }
 
   componentDidMount() {
-    this.props.getLocations();
+    // console.log("Props", this.props);
+    const getReviews = this.props.getReviews;
+    const locationId = this.props.locationId;
+    this.props.getLocations().then( () => {
+      getReviews(locationId);
+    });
   }
 
+  _renderObject(){
+		return Object.entries(this.props.reviews).map(([key, value], i) => {
+			return (
+				<div className="review-elements">
+          <div className="review-title">{value.title}</div>
+          <ReactStars count={ 5 } color2='#008489' value={value.rating} />
+          <div className="review-body">{value.body}</div>
+
+          <br/>
+          <hr></hr>
+				</div>
+			);
+		});
+	}
+
   render() {
-    console.log("props", this.props);
+
     if (!this.props.singleLocation) {
       return (
         <div>
@@ -20,10 +43,13 @@ class SingleLocation extends React.Component {
       );
     }
     return (
+
       <div className="single-location-container">
+
         <div className="single-location-image-container">
           <img className="single-location-image" src={this.props.singleLocation.image_url} />
         </div>
+        <br/>
         <div className="left-right-location-container">
           <div className="left-location-container">
             <div className="location-title">
@@ -50,14 +76,14 @@ class SingleLocation extends React.Component {
               <div className="amenities-title">Amenities</div>
               <br/>
               <div className="amenities-icons">
-                <i class="fas fa-tv"></i>  TV&nbsp;
-                <i class="fas fa-snowflake"></i> Air Conditioning&nbsp;
-                <i class="fas fa-tint"></i> Washer&nbsp;
+                <i className="fas fa-tv"></i>  TV&nbsp;
+                <i className="fas fa-snowflake"></i> Air Conditioning&nbsp;
+                <i className="fas fa-tint"></i> Washer&nbsp;
                 <br/>
                 <br/>
-                <i class="fas fa-fire"></i> Dryer &nbsp;
-                <i class="fas fa-wifi"></i> Wifi&nbsp;
-                <i class="fas fa-utensils"></i> Utensils&nbsp;
+                <i className="fas fa-fire"></i> Dryer &nbsp;
+                <i className="fas fa-wifi"></i> Wifi&nbsp;
+                <i className="fas fa-utensils"></i> Utensils&nbsp;
               </div>
             </div>
             <br/>
@@ -73,7 +99,9 @@ class SingleLocation extends React.Component {
               <br/>
               <hr></hr>
             </div>
-
+            <ReviewContainer />
+            <br/>
+            {this._renderObject()}
           </div>
           <div className="right-location-container">
             <div className="location-checkout">
@@ -83,7 +111,6 @@ class SingleLocation extends React.Component {
               </div>
               <hr></hr>
             </div>
-
           </div>
         </div>
       </div>

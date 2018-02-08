@@ -10,6 +10,21 @@ class AllLocations extends React.Component {
     this.props.getLocations();
   }
 
+  _renderObject(){
+		return Object.entries(this.props.allLocations).map(([key, value], i) => {
+			return (
+        <a href={`/#/locations/${value.id}`}>
+          <div className="individual-explore-item">
+            <img className="explore-image" src={value.image_url} />
+            <div className="explore-title-container">
+              <div className="explore-title">{value.title}</div>
+            </div>
+          </div>
+        </a>
+			);
+		});
+	}
+
   render() {
     console.log("Props", this.props);
     let arr = Object.values(this.props.allLocations);
@@ -20,8 +35,8 @@ class AllLocations extends React.Component {
     }
     console.log(titles);
     return (
-      <div>
-        {titles}
+      <div className="explore-locations">
+        {this._renderObject()}
       </div>
     );
   }

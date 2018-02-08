@@ -124,6 +124,7 @@ class SessionForm extends React.Component {
       guestLogin = "";
     }
     return (
+
       <div className="login-form-container">
 
           <div className="login-form">

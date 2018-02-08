@@ -94,5 +94,133 @@ location3 = Location.create(
   title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://www.impressiveinteriordesign.com/wp-content/uploads/2015/08/California-House-With-A-Beautiful-View-2.jpg"
 )
+
+location4 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://hookedonhouses.net/wp-content/uploads/2011/03/Esquire-house-window-with-a-view.jpg"
+)
+
+location5 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://st.hzcdn.com/fimgs/aeb11ec600e6fcc0_0126-w500-h400-b0-p0--.jpg"
+)
+
+location6 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://tribunen.com/wp-content/uploads/2017/11/nice-kitchen-design-ideas-and-decor-fresh-pictures-of-kitchens.jpg"
+)
+
+location7 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://pgmortgagebroker.com/wp-content/uploads/2016/03/Kitchen-List-800.jpg"
+)
+
+location8 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://smallhousebliss.files.wordpress.com/2012/12/the-edge-cornwall-exterior5-via-smallhousebliss.jpg?w=960&h=638"
+)
+
+location9 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://inseltage.info/wp-content/uploads/2017/11/pretty-backyards-50-beautiful-backyard-ideas.jpg"
+)
+
+location10 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://homeemoney.com/wp-content/uploads/parser/backyard-pool-ideas-1.jpg"
+)
+
+location11 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://immo.vrtx.co/Pic450/12307910.jpg"
+)
+
+location12 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://fthmb.tqn.com/cqK32OqbnY2bd_jzLH40kUT9DKQ=/960x0/filters:no_upscale()/small-master-5-586d752f3df78c17b6e2b4df.jpg"
+)
+
+location13 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://www.stylemotivation.com/wp-content/uploads/2013/12/21-Elegant-and-Modern-Master-Bedroom-Design-Ideas-1-620x465.jpg"
+)
+
+location14 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://www.saadhomes.com/images/slideshow/slide1.jpg"
+)
+
+location15 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://timedotcom.files.wordpress.com/2017/08/presidio-terrace-san-francisco.jpg?quality=85"
+)
+
+location16 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://static4.businessinsider.com/image/4f4fc4f4eab8eaa62b00004d/at-385-million-this-unfinished-shell-of-a-mansion-is-the-most-expensive-home-for-sale-in-san-francisco.jpg"
+)
+
+location17 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://i.ytimg.com/vi/H42xnFPlAs0/maxresdefault.jpg"
+)
+
+location18 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "https://i.pinimg.com/564x/55/a0/17/55a0172eab7ad2662334bc6193b7b17e--hobbit-houses-hobbit-house-plans.jpg"
+)
+
+location19 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://dogalzirve.org/wp-content/uploads/2016/07/cheap-big-nice-houses-with-nice-houses-with-pools-for-sale-huge-houses-with-pools-for-sale.jpg"
+)
+
+location20 = Location.create(
+  title: 'rden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
+  district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
+  baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 1, image_url: "http://www.centralazdining.com/content/uploads/fabulous-really-nice-living-rooms-with-nice-living-rooms-living-room-amazing-nice-living-rooms-design.jpg"
+)
+
+Review.destroy_all
+
+review1 = Review.create(
+            user_id: 7, location_id: 1,
+            rating: 3, body: "Great place to styay", title: "Enjoyed it")
+review2 = Review.create(
+            user_id: 8, location_id: 1,
+            rating: 2, body: "Awesome place", title: "A lot of fun")

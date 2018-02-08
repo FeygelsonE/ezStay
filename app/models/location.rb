@@ -15,10 +15,10 @@ class Location < ApplicationRecord
     class_name: 'Review'
 
   def ensure_image_url
+    
     if self.image_url == ""
-      self.image_url ||= "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
+      self.image_url = "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
     end
-    self.image_url ||= "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
   end
 
 end

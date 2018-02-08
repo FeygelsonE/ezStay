@@ -38,25 +38,25 @@ export const newLocation = location => dispatch => {
 };
 
 export const getLocation = id => dispatch => {
-  APIUtil.getLoc(id)
+  return APIUtil.getLoc(id)
     .then(location => dispatch(receiveLocation(location))
     );
 };
 
 export const getLocations = () => dispatch => {
-  APIUtil.getLocs()
+  return APIUtil.getLocs()
     .then(locations => dispatch(receiveLocations(locations))
   );
 };
 
 export const removeLocation = id => dispatch => {
-  APIUtil.deleteLoc(id)
+  return APIUtil.deleteLoc(id)
     .then(location => dispatch(deleteLocation(location))
     );
 };
 
 export const updateLocation = location => dispatch => {
-  APIUtil.updateLoc(location)
+  return APIUtil.updateLoc(location)
     .then(updatedLocation => dispatch(receiveLocation(updatedLocation)),
       errors => dispatch(receiveLocationErrors(errors.responseJSON))
     );

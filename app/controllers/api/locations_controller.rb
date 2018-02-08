@@ -2,10 +2,7 @@ class Api::LocationsController < ApplicationController
   def create
 
     @location = current_user.locations.new(location_params)
-    if @location.image_url == ""
-      @location.image_url ||= "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
-    end
-    @location.image_url ||= "http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/53/m1/p053m19p.jpg"
+
     if @location.save
       render "api/locations/show"
     else
