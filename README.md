@@ -1,7 +1,9 @@
-# README
+# ezStay
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
+
+[I'm an inline-style link](https://ezstay.herokuapp.com/#/)
 
 Things you may want to cover:
 
