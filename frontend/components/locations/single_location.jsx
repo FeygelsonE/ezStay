@@ -24,7 +24,7 @@ class SingleLocation extends React.Component {
 				<div className="review-elements">
           <div className="review-title">{value.first_name}</div>
           <div className="review-title">{value.title}</div>
-          <ReactStars count={ 5 } color2='#008489' value={value.rating} />
+          <ReactStars color2='#008489' value={value.rating} />
           <div className="review-body">{value.body}</div>
 
           <br/>

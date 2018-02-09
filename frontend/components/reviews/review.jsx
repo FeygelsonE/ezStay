@@ -97,7 +97,7 @@ class Review extends React.Component {
                 className="location-description2"
               />
             </label>
-            <ReactStars count={ 5 } color2='blue' value={this.state.rating}
+            <ReactStars color2='blue' value={this.state.rating}
                         onChange={this.newRating} half = { false } size={ 24 }
                         >Rating</ReactStars>
             <div className='review-form-rating'>
@@ -125,7 +125,7 @@ class Review extends React.Component {
                 className="location-description2"
               />
             </label>
-            <ReactStars count={ 5 } color2='blue' value={this.state.rating}
+            <ReactStars color2='blue' value={this.state.rating}
                         half = { false } size={ 24 }
                         >Rating</ReactStars>
             <div className='review-form-rating'>
