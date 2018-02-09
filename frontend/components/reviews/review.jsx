@@ -33,7 +33,6 @@ class Review extends React.Component {
   }
 
   handleNew(e) {
-    console.log("Hello", this.state.rating);
     e.preventDefault();
     const rev = this.state;
     const locId = this.props.match.params.locationId;
@@ -66,10 +65,6 @@ class Review extends React.Component {
 
 
   render() {
-
-    console.log("This.props.errors", this.props.errors);
-    console.log("This.props", this.props);
-    console.log("State", this.state);
     if (this.props.loggedIn) {
       return (
         <div className="review-form">

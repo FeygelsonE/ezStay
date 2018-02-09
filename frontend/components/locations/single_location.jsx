@@ -10,7 +10,6 @@ class SingleLocation extends React.Component {
   }
 
   componentDidMount() {
-    // console.log("Props", this.props);
     const getReviews = this.props.getReviews;
     const locationId = this.props.locationId;
     this.props.getLocations().then( () => {

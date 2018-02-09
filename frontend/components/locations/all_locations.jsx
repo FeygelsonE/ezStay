@@ -26,14 +26,6 @@ class AllLocations extends React.Component {
 	}
 
   render() {
-    console.log("Props", this.props);
-    let arr = Object.values(this.props.allLocations);
-    console.log(arr);
-    let titles = [];
-    for (var i = 0; i < arr.length; i++) {
-      titles.push(arr[i].image_url);
-    }
-    console.log(titles);
     return (
       <div className="explore-locations">
         {this._renderObject()}
