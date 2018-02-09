@@ -17,8 +17,11 @@ class SingleLocation extends React.Component {
     });
   }
 
+
   _renderObject(){
-		return Object.entries(this.props.reviews).map(([key, value], i) => {
+    let arr1 = Object.entries(this.props.reviews);
+    let reversed = arr1.reverse();
+		return reversed.map(([key, value], i) => {
 			return (
 				<div className="review-elements">
           <div className="review-title">{value.first_name}</div>
@@ -34,7 +37,7 @@ class SingleLocation extends React.Component {
 	}
 
   render() {
-
+    console.log(this.props.singleLocation);
     if (!this.props.singleLocation) {
       return (
         <div>
@@ -115,6 +118,7 @@ class SingleLocation extends React.Component {
                   >Rating</ReactStars>
               </div>
               <hr></hr>
+
             </div>
           </div>
         </div>

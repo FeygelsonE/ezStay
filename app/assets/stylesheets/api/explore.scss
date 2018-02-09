@@ -5,9 +5,14 @@
 
 }
 
+.expl2ore-ind-link {
+  text-decoration:  none;
+}
+
+
 .individual-explore-item {
   // display: flex;
-  padding: 10px;
+  padding: 20px;
 }
 .explore-image {
   // display: flex;
@@ -20,13 +25,22 @@
     opacity:0.5;
 }
 
+.explore-title-container {
+  text-decoration: none;
+}
+
 .explore-title {
-  font-size: 19px;
-  line-height: 22px;
-  color: #484848;
+  text-decoration: none;
+  decoration: none;
+  line-height: 30px;
+  color: black;
   font-weight: 700;
   width: 250px;
   font-size: 25px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.explore-title:hover {
+  color: blue;
 }

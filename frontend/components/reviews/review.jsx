@@ -98,6 +98,7 @@ class Review extends React.Component {
             <div className='review-form-rating'>
 
           </div>
+          <br className='brsmall'/>
           <input className="login-button" type="submit" onClick={(ev) => this.handleNew(ev) } value="Submit Review" />
         </div>
       );
@@ -126,6 +127,7 @@ class Review extends React.Component {
             <div className='review-form-rating'>
 
           </div>
+          <br className='brsmall'/>
           <input className="login-button" type="text" value="Must be logged in to Submit Review" />
         </div>
       );

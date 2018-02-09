@@ -97,7 +97,7 @@ location2 = Location.create(
   title: 'Garden Retreat steps from Haight St', description: 'If you want to be within walking distance to Golden Gate Park, Haight St, Buena Vista Park, and Cole Valley, this is the spot. Full size bed in the bedroom with 400 thread count sheets and a pull-out twin in the living room. Just installed fireplace and large screen tv makes hanging out fun in the comfortable living room. Bathroom has a shower within the tub and white fluffy towels.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 14, image_url: "https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 14, image_url: "https://cdn.myfancyhouse.com/wp-content/uploads/2012/12/Designing-a-%E2%80%98Sit-On-the-View%E2%80%99-Beach-House-4.jpg"
 )
 
 location3 = Location.create(
@@ -111,7 +111,7 @@ location4 = Location.create(
   title: 'Grand and Cozy 1920s SF Studio', description: 'Come enjoy our large studio in San Franciscos charming and convenient Bernal Heights! Youll enjoy your own cozy and private lodging with a romantic gas fireplace, wood and stone floors and artistic decor. You will be close to world class views of San Francisco and its beautiful bay. Bus lines are close by and and parking is very easy!',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 12, image_url: "https://hookedonhouses.net/wp-content/uploads/2011/03/Esquire-house-window-with-a-view.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 12, image_url: "https://a0.muscache.com/im/pictures/c2e2b7d3-4f47-47b6-9df2-a0848c8740a3.jpg?aki_policy=xx_large"
 )
 
 location5 = Location.create(
@@ -119,21 +119,21 @@ location5 = Location.create(
   I do not charge a cleaning fee because I feel this is a way to hide the real cost of the accommodation. Hotels don’t charge cleaning fees and neither do I. There is a modest security deposit which will not affect considerate guests.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 11, image_url: "https://st.hzcdn.com/fimgs/aeb11ec600e6fcc0_0126-w500-h400-b0-p0--.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 11, image_url: "https://a0.muscache.com/im/pictures/6722906/b4bc6418_original.jpg?aki_policy=xx_large"
 )
 
 location6 = Location.create(
   title: 'SF Luxury High Rise', description: 'Remove the stress of finding and furnishing an apartment in the city, available now is a stunning furnished spacious one bedroom and one bath at Millennium Tower. Below is a list of amenities and features that will check all of the boxes, but staying here is more than the sum of its parts. Live close to work, close to the freeway, close to the food and nightlife that make SF glow.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 10, image_url: "https://i.pinimg.com/736x/bf/82/e3/bf82e3a0883a2b236c69e472e19417a4--cool-kitchen-appliances-design-for-house.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 10, image_url: "https://a0.muscache.com/im/pictures/812e040f-6f6f-4cae-ad67-66c050b57c1f.jpg?aki_policy=xx_large"
 )
 
 location7 = Location.create(
   title: 'Private Garden Studio near GG Park', description: 'Studio appartment with private entrance, living room, kitchenette, bathroom, queen size murphy bed, and garden. Located on the N-Judah train line. Easy access to everywhere from the ocean to downtown. Blocks from GG park, museums, concerts and events.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 9, image_url: "http://pgmortgagebroker.com/wp-content/uploads/2016/03/Kitchen-List-800.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 9, image_url: "https://a0.muscache.com/im/pictures/45681302/d012f51f_original.jpg?aki_policy=x_large"
 )
 
 location8 = Location.create(
@@ -154,14 +154,14 @@ location10 = Location.create(
   title: 'Charming studio w kitchen and bath', description: 'You will find enough plates, cups, glasses and utensils for four people. I will have water, coffee, tea, and a few goodies for a light breakfast or snack in the kitchenette. Then you are on your own! I have a list of great coffee houses, and restaurants within walking distance. There is a Queen size bed and a large ottoman that opens into a single bed. The french doors open to the lower level garden which you have full access to. You probably wont see me much, but I will answer your texts promptly and answer any questions you may have. Enjoy your stay!',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 6, image_url: "http://homeemoney.com/wp-content/uploads/parser/backyard-pool-ideas-1.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 6, image_url: "https://a0.muscache.com/im/pictures/45680811/f4987a12_original.jpg?aki_policy=xx_large"
 )
 
 location11 = Location.create(
   title: 'Spacious Victorian Vibrant Walkable Neighborhood', description: 'Your room is private and the rest of the apartment is shared with your host and potentially another group of carefully screened guests. Please inquire for the dates you will be staying if you’d like to know with whom you’ll be sharing my home!',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 5, image_url: "http://immo.vrtx.co/Pic450/12307910.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 5, image_url: "https://a0.muscache.com/im/pictures/11424118/e1fb3923_original.jpg?aki_policy=xx_large"
 )
 
 location12 = Location.create(
@@ -176,7 +176,7 @@ location13 = Location.create(
   title: 'Private bedroom/bathroom in Twin Peaks with views!', description: 'This private bedroom/bathroom is centrally located in the safe, quiet neighborhood of Twin Peaks, San Francisco. There are beautiful city views from all the windows and there are hiking/biking trails right outside the door on Mount Sutro. You will be very close to the action of the city and everything is accessible within minutes on public transportation. This very spacious bedroom/bathroom is on its own private floor with separate entrance (down 28 steps) and used to be rented as an apartment.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 3, image_url: "http://www.stylemotivation.com/wp-content/uploads/2013/12/21-Elegant-and-Modern-Master-Bedroom-Design-Ideas-1-620x465.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 3, image_url: "https://a0.muscache.com/im/pictures/51396c27-e4a3-46b7-a279-def76ba128a8.jpg?aki_policy=xx_large"
 )
 
 location14 = Location.create(
@@ -200,35 +200,35 @@ location16 = Location.create(
   title: 'Golden Gate Park & Beach Getaway!', description: 'Cozy 2BR flat with private entrance, 1 king bed, 2 twin beds, kitchen, bathroom w/ shower and access to our beautiful backyard. Easy/Free parking, directly across from GGP, 8 blocks to the beach & 2 to public transport. Very safe & quiet neighborhood.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 8, image_url: "http://static4.businessinsider.com/image/4f4fc4f4eab8eaa62b00004d/at-385-million-this-unfinished-shell-of-a-mansion-is-the-most-expensive-home-for-sale-in-san-francisco.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 8, image_url: "https://a0.muscache.com/im/pictures/10431290/aa5f0e00_original.jpg?aki_policy=xx_large"
 )
 
 location17 = Location.create(
   title: 'San Francisco Home a block from Ocean Beach/Sunset', description: 'The location is one block away from the beach. It is a quick walk to and from surfing, running paths, water-gazing, and sunsets. It is also 2 blocks away from a grocery store, world-renowned bakery, surf shop, restaurants, and a bar. ',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 11, image_url: "https://i.ytimg.com/vi/H42xnFPlAs0/maxresdefault.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 11, image_url: "https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?aki_policy=xx_large"
 )
 
 location18 = Location.create(
   title: 'Beautiful Balcony, 2 Rooms, 3 Beds, Free Parking', description: 'Please note that while your rooms are 100% private with a lock on it that only you will have, you will be sharing the kitchen and two bathrooms with three other Airbnb rooms. This is part of the fun though as you can meet different people from around the world who are staying here with you. Access to the kitchen and bathrooms is usually fine as most people spend the majority of their time out and about in the city, but sometimes during peak travel times you may feel the house being a little more full. So to be very clear, you will see several other Airbnb guests in the home who are living close to you (the nature of such a dense city as San Francisco) and sharing the kitchen and bathrooms, but as you can see in the reviews that my guests have loved their time here as people are usually very friendly and respectful. Youre two bedrooms are connected, and you will need to go through one to get to the other from the balcony or to the kitchen and bathrooms (as seen in the pictures). You also have a space heater in your room so that you can control your temperature. Whether you are coming in the summer or the winter, you will enjoy the weather here in San Francisco as it is usually between 60 and 75 degrees, making your balcony a very enjoyable experience all year round. There is nothing better than after a day of enjoying the sites to be able to come back and sit under the stars and see the beautiful views of SF on a back deck!',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 13, image_url: "https://i.pinimg.com/564x/55/a0/17/55a0172eab7ad2662334bc6193b7b17e--hobbit-houses-hobbit-house-plans.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 13, image_url: "https://a0.muscache.com/im/pictures/6174600/15fb85b3_original.jpg?aki_policy=xx_large"
 )
 
 location19 = Location.create(
   title: 'Huge Beauty, 3 Beds, Full Kitchen', description: 'Please note that while your rooms are 100% private with a lock on it that only you will have, you will be sharing the kitchen and two bathrooms with three other Airbnb rooms. This is part of the fun though as you can meet different people from around the world who are staying here with you. Access to the kitchen and bathrooms is usually fine as most people spend the majority of their time out and about in the city, but sometimes during peak travel times you may feel the house being a little more full. So to be very clear, you will see several other Airbnb guests in the home who are living close to you (the nature of such a dense city as San Francisco) and sharing the kitchen and bathrooms, but as you can see in the reviews that my guests have loved their time here as people are usually very friendly and respectful.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 10, image_url: "http://dogalzirve.org/wp-content/uploads/2016/07/cheap-big-nice-houses-with-nice-houses-with-pools-for-sale-huge-houses-with-pools-for-sale.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 10, image_url: "https://a0.muscache.com/im/pictures/16304758/0ec38e53_original.jpg?aki_policy=xx_large"
 )
 
 location20 = Location.create(
   title: 'New Modern Flat, Close to Moscone & Union Square!', description: 'Where clean contemporary atmosphere and young SOMA neighborhood collide. My place is close to Moscone Convention Center (15-min walk), SF City Hall (12-min walk), Trader Joes (7-min walk), the best hip restaurants in Hayes Valley (20-min walk), and elsewhere. With plenty of personality and an inviting feel, my place is good for couples, solo adventurers, business travelers, families, and groups. One great space for working, relaxing, eating, and entertaining. Walk Score: 97 Transit score: 100.',
   district: 'Ashbury Heights', address: '205 Fredrick St', price: 185, rooms: 2, beds: 2,
   baths: 2, guests: 3, cancellation: '48 Hours', kitchen: true, tv: true, heating: true,
-  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 7, image_url: "http://www.centralazdining.com/content/uploads/fabulous-really-nice-living-rooms-with-nice-living-rooms-living-room-amazing-nice-living-rooms-design.jpg"
+  ac: true, washer: true, dryer: true, wifi: true, pool: true, hot_tub: true, host_id: 7, image_url: "https://a0.muscache.com/im/pictures/7255437/22cc8c2d_original.jpg?aki_policy=xx_large"
 )
 
 Review.destroy_all
