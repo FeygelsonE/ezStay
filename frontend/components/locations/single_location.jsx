@@ -37,7 +37,6 @@ class SingleLocation extends React.Component {
 	}
 
   render() {
-    console.log(this.props.singleLocation);
     if (!this.props.singleLocation) {
       return (
         <div>
