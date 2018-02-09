@@ -266,3 +266,431 @@ breview3 = Review.create(
             user_id: 3, location_id: 2,
             rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
             and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+breview4 = Review.create(
+            user_id: 4, location_id: 2,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+breview5 = Review.create(
+            user_id: 5, location_id: 2,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+breview6 = Review.create(
+            user_id: 6, location_id: 2,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+breview7 = Review.create(
+            user_id: 7, location_id: 2,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+
+creview1 = Review.create(
+            user_id: 1, location_id: 3,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+creview2 = Review.create(
+            user_id: 2, location_id: 3,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+creview3 = Review.create(
+            user_id: 3, location_id: 3,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+creview4 = Review.create(
+            user_id: 4, location_id: 3,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+creview5 = Review.create(
+            user_id: 5, location_id: 3,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+creview6 = Review.create(
+            user_id: 6, location_id: 3,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+creview7 = Review.create(
+            user_id: 7, location_id: 3,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+dreview1 = Review.create(
+            user_id: 1, location_id: 4,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+dreview2 = Review.create(
+            user_id: 2, location_id: 4,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+dreview3 = Review.create(
+            user_id: 3, location_id: 4,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+dreview4 = Review.create(
+            user_id: 4, location_id: 4,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+dreview5 = Review.create(
+            user_id: 5, location_id: 4,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+dreview6 = Review.create(
+            user_id: 6, location_id: 4,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+dreview7 = Review.create(
+            user_id: 7, location_id: 4,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+ereview1 = Review.create(
+            user_id: 1, location_id: 5,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+ereview2 = Review.create(
+            user_id: 2, location_id: 5,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+ereview3 = Review.create(
+            user_id: 3, location_id: 5,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+ereview4 = Review.create(
+            user_id: 4, location_id: 5,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+ereview5 = Review.create(
+            user_id: 5, location_id: 5,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+ereview6 = Review.create(
+            user_id: 6, location_id: 5,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+ereview7 = Review.create(
+            user_id: 7, location_id: 5,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+freview1 = Review.create(
+            user_id: 1, location_id: 6,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+freview2 = Review.create(
+            user_id: 2, location_id: 6,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+freview3 = Review.create(
+            user_id: 3, location_id: 6,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+freview4 = Review.create(
+            user_id: 4, location_id: 6,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+freview5 = Review.create(
+            user_id: 5, location_id: 6,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+freview6 = Review.create(
+            user_id: 6, location_id: 6,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+freview7 = Review.create(
+            user_id: 7, location_id: 6,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+greview1 = Review.create(
+            user_id: 1, location_id: 7,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+greview2 = Review.create(
+            user_id: 2, location_id: 7,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+greview3 = Review.create(
+            user_id: 3, location_id: 7,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+greview4 = Review.create(
+            user_id: 4, location_id: 7,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+greview5 = Review.create(
+            user_id: 5, location_id: 7,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+greview6 = Review.create(
+            user_id: 6, location_id: 7,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+greview7 = Review.create(
+            user_id: 7, location_id: 7,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+hreview1 = Review.create(
+            user_id: 1, location_id: 8,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+hreview2 = Review.create(
+            user_id: 2, location_id: 8,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+hreview3 = Review.create(
+            user_id: 3, location_id: 8,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+hreview4 = Review.create(
+            user_id: 4, location_id: 8,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+hreview5 = Review.create(
+            user_id: 5, location_id: 8,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+hreview6 = Review.create(
+            user_id: 6, location_id: 8,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+hreview7 = Review.create(
+            user_id: 7, location_id: 8,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+ireview1 = Review.create(
+            user_id: 1, location_id: 9,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+ireview2 = Review.create(
+            user_id: 2, location_id: 9,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+ireview3 = Review.create(
+            user_id: 3, location_id: 9,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+ireview4 = Review.create(
+            user_id: 4, location_id: 9,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+ireview5 = Review.create(
+            user_id: 5, location_id: 9,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+ireview6 = Review.create(
+            user_id: 6, location_id: 9,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+ireview7 = Review.create(
+            user_id: 7, location_id: 9,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+jreview1 = Review.create(
+            user_id: 1, location_id: 10,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+jreview2 = Review.create(
+            user_id: 2, location_id: 10,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+jreview3 = Review.create(
+            user_id: 3, location_id: 10,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+jreview4 = Review.create(
+            user_id: 4, location_id: 10,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+jreview5 = Review.create(
+            user_id: 5, location_id: 10,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+jreview6 = Review.create(
+            user_id: 6, location_id: 10,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+jreview7 = Review.create(
+            user_id: 7, location_id: 10,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+kreview1 = Review.create(
+            user_id: 1, location_id: 11,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+kreview2 = Review.create(
+            user_id: 2, location_id: 11,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+kreview3 = Review.create(
+            user_id: 3, location_id: 11,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+kreview4 = Review.create(
+            user_id: 4, location_id: 11,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+kreview5 = Review.create(
+            user_id: 5, location_id: 11,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+kreview6 = Review.create(
+            user_id: 6, location_id: 11,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+kreview7 = Review.create(
+            user_id: 7, location_id: 11,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+lreview1 = Review.create(
+            user_id: 1, location_id: 12,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+lreview2 = Review.create(
+            user_id: 2, location_id: 12,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+lreview3 = Review.create(
+            user_id: 3, location_id: 12,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+lreview4 = Review.create(
+            user_id: 4, location_id: 12,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+lreview5 = Review.create(
+            user_id: 5, location_id: 12,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+lreview6 = Review.create(
+            user_id: 6, location_id: 12,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+lreview7 = Review.create(
+            user_id: 7, location_id: 12,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+
+mreview1 = Review.create(
+            user_id: 1, location_id: 13,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+mreview2 = Review.create(
+            user_id: 2, location_id: 13,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+mreview3 = Review.create(
+            user_id: 3, location_id: 13,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+mreview4 = Review.create(
+            user_id: 4, location_id: 13,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+mreview5 = Review.create(
+            user_id: 5, location_id: 13,
+            rating: 5, body: "Mike an1d Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+mreview6 = Review.create(
+            user_id: 6, location_id: 13,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+mreview7 = Review.create(
+            user_id: 7, location_id: 13,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+nreview1 = Review.create(
+            user_id: 1, location_id: 14,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+nreview2 = Review.create(
+            user_id: 2, location_id: 14,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+nreview3 = Review.create(
+            user_id: 3, location_id: 14,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+nreview4 = Review.create(
+            user_id: 4, location_id: 14,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+nreview5 = Review.create(
+            user_id: 5, location_id: 14,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+nreview6 = Review.create(
+            user_id: 6, location_id: 14,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+nreview7 = Review.create(
+            user_id: 7, location_id: 14,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+oreview1 = Review.create(
+            user_id: 1, location_id: 15,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+oreview2 = Review.create(
+            user_id: 2, location_id: 15,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+oreview3 = Review.create(
+            user_id: 3, location_id: 15,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+oreview4 = Review.create(
+            user_id: 4, location_id: 15,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+oreview5 = Review.create(
+            user_id: 5, location_id: 15,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+oreview6 = Review.create(
+            user_id: 6, location_id: 15,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+oreview7 = Review.create(
+            user_id: 7, location_id: 15,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+preview1 = Review.create(
+            user_id: 1, location_id: 16,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+preview2 = Review.create(
+            user_id: 2, location_id: 16,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+preview3 = Review.create(
+            user_id: 3, location_id: 16,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+preview4 = Review.create(
+            user_id: 4, location_id: 16,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+preview5 = Review.create(
+            user_id: 5, location_id: 16,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+preview6 = Review.create(
+            user_id: 6, location_id: 16,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+preview7 = Review.create(
+            user_id: 7, location_id: 16,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+qreview1 = Review.create(
+            user_id: 1, location_id: 17,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+qreview2 = Review.create(
+            user_id: 2, location_id: 17,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+qreview3 = Review.create(
+            user_id: 3, location_id: 17,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+qreview4 = Review.create(
+            user_id: 4, location_id: 17,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+qreview5 = Review.create(
+            user_id: 5, location_id: 17,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+qreview6 = Review.create(
+            user_id: 6, location_id: 17,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+qreview7 = Review.create(
+            user_id: 7, location_id: 17,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+rreview1 = Review.create(
+            user_id: 1, location_id: 18,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+rreview2 = Review.create(
+            user_id: 2, location_id: 18,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+rreview3 = Review.create(
+            user_id: 3, location_id: 18,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+rreview4 = Review.create(
+            user_id: 4, location_id: 18,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+rreview5 = Review.create(
+            user_id: 5, location_id: 18,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+rreview6 = Review.create(
+            user_id: 6, location_id: 18,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+rreview7 = Review.create(
+            user_id: 7, location_id: 18,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+sreview1 = Review.create(
+            user_id: 1, location_id: 19,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+sreview2 = Review.create(
+            user_id: 2, location_id: 19,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+sreview3 = Review.create(
+            user_id: 3, location_id: 19,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+sreview4 = Review.create(
+            user_id: 4, location_id: 19,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+sreview5 = Review.create(
+            user_id: 5, location_id: 19,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+sreview6 = Review.create(
+            user_id: 6, location_id: 19,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+sreview7 = Review.create(
+            user_id: 7, location_id: 19,
+            rating: 4, body: "Thank You", title: "Homie feel")
+
+treview1 = Review.create(
+            user_id: 1, location_id: 20,
+            rating: 3, body: "Great place to stay", title: "Enjoyed it")
+treview2 = Review.create(
+            user_id: 2, location_id: 20,
+            rating: 2, body: "Awesome place", title: "A lot of fun")
+treview3 = Review.create(
+            user_id: 3, location_id: 20,
+            rating: 4, body: "Faded Grandeur, as a previous reviewer has mentioned, is a perfect description of the setting of Antonio's apartment. The apartment is very charming, with all the quirkiness that is portrayed in the photos. A comfortable bed, two nice couches, and an armchair make it a very pleasant place to stay. Plus it is a great location from which to explore the old city, with many choices of good restaurants nearby. Antonio wasn't there himself, but a big thank you to Tiziana, who was there to meet us
+            and helped us in a number of ways, and even arranged for us a very nice driver who took us to Monreale and back, and to the airport at the end of our stay.", title: "Very fun vacation")
+treview4 = Review.create(
+            user_id: 4, location_id: 20,
+            rating: 2, body: "My daughter and I stayed at Mike and Nic’s place over the Thanksgiving holiday. It was cozy, warm, clean, spacious and peaceful. The neighborhood was quiet and friendly with small cafes and shops within walking distance (I recommend the Moonlight Cafe for breakfast). The nearby park had a spectacular view of the city. At nighttime, it was breathtaking. Although I only got to spend a little bit of time with our hosts, Mike and Nic, they were truly kind and down to earth people. If you want a real taste of the SF lifestyle, this is where to stay. When I go back, and I know it will be soon, Mike and Nic’s will definitely be my first choice of places to stay.", title: "It was ok")
+treview5 = Review.create(
+            user_id: 5, location_id: 20,
+            rating: 5, body: "Mike and Nic have a lovely space that is in a great, but quiet location WITH PARKING-who knew such place existed in SFO! They were delightful and accomodating!", title: "Would reccomend to my friends!")
+treview6 = Review.create(
+            user_id: 6, location_id: 20,
+            rating: 5, body: "Good eats in easy walking distance. Very interesting and thoughtful space. Quiet at night. LYFT ride shares came quickly to this corner, just a few short blocks from the top of one of SF’s many hills where you can walk quietly and have great views.", title: "Tasty restauraunts close by!")
+treview7 = Review.create(
+            user_id: 7, location_id: 20,
+            rating: 4, body: "Thank You", title: "Homie feel")
