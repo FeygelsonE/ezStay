@@ -71,7 +71,6 @@
 .location-checkout {
   float: right;
   margin-right: 26%;
-  display: flex;
   top: 70px;
   position: sticky;
   border: 1px solid #e4e4e4;
@@ -84,7 +83,7 @@
 }
 
 .price-style {
-  padding-left: 20px;
+  padding-left: 6%;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: -0.2px;
@@ -94,12 +93,17 @@
 }
 
 .location-price {
-
+  width: 100%;
+  display: block;
 }
 
 .location-amenities {
   margin-left: 20%;
 
+}
+
+.location-star-rating {
+  padding-left: 6%;
 }
 
 .amenities-title {
