@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
       user: {
         email: "BestGuest@gmail.com",
         password: "password",
-        first_name: "Best",
+        first_name: "Joe",
         last_name: "Guest"
       }
     }
