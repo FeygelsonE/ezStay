@@ -18,7 +18,7 @@ When signed in, users are allowed to host their own homes and create a page for 
 
 On the explore location page users are able to see all available locations. Implementing a search via Google maps and search bar will be done in the future. If a user clicks on a location they will be redirected to the specific location's main page.
 
-![Alt Text](https://media.giphy.com/media/3o7WIEJwbcCamtpeZW/giphy.gif)
+![Alt Text](http://gph.is/2Efz20d)
 
 ### Single Location
 
