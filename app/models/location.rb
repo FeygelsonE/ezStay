@@ -3,6 +3,7 @@ class Location < ApplicationRecord
             :beds, :baths, :guests, :cancellation, presence: true
 
   after_initialize :ensure_image_url
+  after_initialize :ensure_rating
 
   belongs_to :host,
     primary_key: :id,
@@ -26,5 +27,8 @@ class Location < ApplicationRecord
     end
   end
 
+  def ensure_rating
+    self.rating = self.reviews.average(:rating)
+  end
 
 end

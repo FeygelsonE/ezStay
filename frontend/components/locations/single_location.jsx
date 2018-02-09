@@ -44,6 +44,7 @@ class SingleLocation extends React.Component {
         </div>
       );
     }
+    
     return (
 
       <div className="single-location-container">
@@ -112,7 +113,7 @@ class SingleLocation extends React.Component {
                 <span className="price-style">${this.props.singleLocation.price}</span> per night
               </div>
               <div className="location-star-rating">
-                <ReactStars color2='blue' value={4}
+                <ReactStars color2='blue' value={this.props.singleLocation.rating}
                   half = { false } size={ 10 } edit={false}
                   />
               </div>
