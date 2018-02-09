@@ -1,5 +1,29 @@
 Rails.application.routes.draw do
 
+  namespace :api do
+    get 'bookings/create'
+  end
+
+  namespace :api do
+    get 'bookings/show'
+  end
+
+  namespace :api do
+    get 'bookings/index'
+  end
+
+  namespace :api do
+    get 'bookings/destroy'
+  end
+
+  get 'bookings/create'
+
+  get 'bookings/show'
+
+  get 'bookings/index'
+
+  get 'bookings/destroy'
+
   root "static_pages#root"
 
   namespace :api, defaults: { format: :json } do
