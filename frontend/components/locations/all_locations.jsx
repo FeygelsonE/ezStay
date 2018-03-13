@@ -20,6 +20,7 @@ class AllLocations extends React.Component {
   _renderObject(){
 		return Object.entries(this.props.allLocations).map(([key, value], i) => {
 			return (
+
         <a className="expl2ore-ind-link" href={`/#/locations/${value.id}`}>
           <div className="individual-explore-item">
             <img className="explore-image" src={value.image_url} />
@@ -48,6 +49,7 @@ class AllLocations extends React.Component {
             </div>
           </div>
         </div>
+        <h2 className="wonderful-homes">Explore these wonderful homes</h2>
         <div className="all-explore">
           <div className="explore-locations">
             {this._renderObject()}
