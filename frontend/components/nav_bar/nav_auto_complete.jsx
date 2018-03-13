@@ -56,15 +56,15 @@ export default class AutoCompletez extends React.Component {
     });
     return(
       <div>
-        <div className='search-container'>
+        <div className='search-container2'>
           <input
-            className='search-input'
+            className='search-input2'
             onChange={this.handleSearch}
             value={this.state.inputVal}
             placeholder='Search Anywhere in San Francisco'/>
           <ul>
             <ReactCSSTransitionGroup
-              className='search-results'
+              className='search-results2'
               transitionName='auto'
               transitionEnterTimeout={10}
               transitionLeaveTimeout={10}>
