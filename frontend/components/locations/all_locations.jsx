@@ -1,3 +1,5 @@
+/*global google*/
+
 import React from 'react';
 import { Link, withRouter, Redirect } from 'react-router-dom';
 
@@ -8,6 +10,11 @@ class AllLocations extends React.Component {
 
   componentDidMount() {
     this.props.getLocations();
+    const mapOptions = {
+      center: { lat: 34.097392, lng: -118.276408 },
+      zoom: 10
+    };
+    this.map = new google.maps.Map(this.mapNode, mapOptions);
   }
 
   _renderObject(){
@@ -27,8 +34,16 @@ class AllLocations extends React.Component {
 
   render() {
     return (
-      <div className="explore-locations">
-        {this._renderObject()}
+      <div className="all-explore">
+        <div className="explore-locations">
+          {this._renderObject()}
+        </div>
+        <div>
+          <div className="google-maps">
+            <div id='map-container' ref={ map => this.mapNode = map }>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

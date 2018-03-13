@@ -5,23 +5,25 @@ import NewLocationContainer from './locations/new_location_container';
 import { Route, Redirect } from 'react-router-dom';
 import { AuthRoute, LocationRoute, ProtectedRoute } from '../util/route_util';
 import NavbarContainer from './nav_bar/nav_bar_container';
+import NotNavbarContainer from './nav_bar/nav_bar_container';
 import { Switch } from 'react-router-dom';
 import Locations from './search_bar/location_names';
 import SingleLocationContainer from './locations/single_location_container';
 import AllLocationsContainer from './locations/all_locations_container';
 import ReviewContainer from './reviews/review_container';
 
+
 const App = () => (
   <Fragment>
     <br/>
-    <NavbarContainer />
+    <Switch>
+      <Route exact path="/" component={NavbarContainer} />
+      <Route path="/" component={NotNavbarContainer} />
+    </Switch>
     <Route exact path="/" component={GreetingContainer} />
     <Route exact path="/login" component={GreetingContainer} />
     <Route exact path="/signup" component={GreetingContainer} />
 
-    <Route exact path="/" component={Locations} />
-    <Route exact path="/login" component={Locations} />
-    <Route exact path="/signup" component={Locations} />
 
       <Switch>
         <AuthRoute exact path="/login" component={SessionFormContainer} />

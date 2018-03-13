@@ -1,25 +1,121 @@
-.title-slogan {
-  margin-top: 12%;
-  margin-left: 17%;
+.bottom-greeting {
+  margin-left: 15%;
+}
+
+.greeting-title-container {
+  text-decoration: none;
+}
+
+.individual-greeting-item {
+  width: 200px;
+  box-sizing: border-box;
+  background-color: transparent !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  border-radius: 3px !important;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) !important;
+  margin-right: 23px;
+  margin-bottom: 15px;
+}
+
+.greeting-locations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greeting-image {
+  // display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.greeting-image:hover {
+    background-color:#000;
+    opacity:0.5;
+}
+
+.explore-ezStay {
+  font-weight: 700 !important;
+  margin-bottom: 0px !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size: 28px !important;
+  line-height: 32px !important;
+  letter-spacing: -0.6px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  color: #484848 !important;
+}
+
+.changing-pictures {
+  height: 0px;
+}
+
+
+.slogan-container {
+  padding-top: 270px;
+}
+
+.greeting-location-title {
+  text-decoration: none;
+  text-align: center;
+  decoration: none;
+  line-height: 25px;
+  color: black;
+  font-weight: 700;
+  width: 200px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greeting-location-title:hover {
+  color: blue;
+}
+
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: 0px -190px;}
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: 0px -190px;}
+}
+
+
+
+.top-greeting {
+  background-image: url(https://a0.muscache.com/ac/pictures/page0/tomorrowland/original/6f6cc279-1f4e-4f55-aaae-257764ed1c29.jpg?interpolation=lanczos-none&amp;resize=2000:1000&amp;output-format=jpg&amp;output-quality=80);
+  background-size: cover;
+  height: 650px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  animation: backgroundScroll 19s linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: backgroundScroll 19s linear infinite;
+  -webkit-animation-fill-mode: forwards;
 }
 
 .title {
   box-sizing: border-box;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
-  font-size: 3em;
+  font-size: 40px;
   line-height: 50px;
   letter-spacing: -0.6px;
-  color: #FF5A5F;
-  font-weight: 650;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 1px 40px rgba(22, 23, 31, 0.4) !important;
 }
 
 .slogan {
+  margin-left: 17%;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
-  font-size: 2.2em;
+  font-size: 40px;
   line-height: 35px;
-  letter-spacing: -0.6px;
-  padding-top: 2px;
+  letter-spacing: 1.8px;
+
+  padding-top: 8px;
   padding-bottom: 2px;
-  color: #484848;
-  font-weight: 425;
+  color: #ffffff;
+  font-weight: 650;
+  text-shadow: 1px 1px 40px rgba(22, 23, 31, 0.4) !important;
 }
