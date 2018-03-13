@@ -11,7 +11,7 @@ class AllLocations extends React.Component {
   componentDidMount() {
     this.props.getLocations();
     const mapOptions = {
-      center: { lat: 34.097392, lng: -118.276408 },
+      center: { lat: 37.773972, lng: -122.431297 },
       zoom: 10
     };
     this.map = new google.maps.Map(this.mapNode, mapOptions);
