@@ -68,14 +68,60 @@
   max-height:400px;
 }
 
+.dates-chosen {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.checkinz {
+
+  display: inline;
+  margin-right: 64px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: Helvetica sans-serif;
+  color: #484848;
+}
+
+.date-selection {
+  display: inline;
+  margin-right: 10px;
+}
+.guest-selection {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.number-guests-booking {
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: Helvetica sans-serif;
+  color: #484848;
+}
+
 .location-checkout {
   float: right;
   margin-right: 26%;
   top: 70px;
   position: sticky;
   border: 1px solid #e4e4e4;
-  height: 300px;
-  width: 270px;
+  height: 318px;
+  width: 370px;
+}
+
+.availability-size-reducer {
+  margin-top: 40px;
+  width: 300px;
+  margin-left: 35px;
+}
+
+.guest-dropdown {
+  width: 50px;
 }
 
 .right-location-container {

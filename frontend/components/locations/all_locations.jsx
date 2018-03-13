@@ -11,8 +11,8 @@ class AllLocations extends React.Component {
   componentDidMount() {
     this.props.getLocations();
     const mapOptions = {
-      center: { lat: 37.773972, lng: -122.431297 },
-      zoom: 10
+      center: { lat: 37.773972, lng: -122.051297 },
+      zoom: 11
     };
     this.map = new google.maps.Map(this.mapNode, mapOptions);
   }
@@ -34,13 +34,28 @@ class AllLocations extends React.Component {
 
   render() {
     return (
-      <div className="all-explore">
-        <div className="explore-locations">
-          {this._renderObject()}
+      <div>
+        <div className="bala">
+          <div className="separation-locations">
+            <div className="filter-container">
+              <p className="filter-options-display">Dates</p>
+              <p className="filter-options-display">Guests</p>
+              <p className="filter-options-display">Home type</p>
+              <p className="filter-options-display">Price</p>
+              <p className="filter-options-display">Instant Book</p>
+              <p className="filter-options-display">Trip type</p>
+              <p className="filter-options-display">More filters</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <div className="google-maps">
-            <div id='map-container' ref={ map => this.mapNode = map }>
+        <div className="all-explore">
+          <div className="explore-locations">
+            {this._renderObject()}
+          </div>
+          <div>
+            <div className="google-maps">
+              <div id='map-container' ref={ map => this.mapNode = map }>
+              </div>
             </div>
           </div>
         </div>

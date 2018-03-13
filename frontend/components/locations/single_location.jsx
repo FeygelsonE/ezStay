@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactStars from 'react-stars';
 
+
 import { Link, withRouter, Redirect } from 'react-router-dom';
 import ReviewContainer from '../reviews/review_container';
 
@@ -44,7 +45,7 @@ class SingleLocation extends React.Component {
         </div>
       );
     }
-    
+
     return (
 
       <div className="single-location-container">
@@ -117,8 +118,38 @@ class SingleLocation extends React.Component {
                   half = { false } size={ 10 } edit={false}
                   />
               </div>
-              <hr></hr>
 
+              <hr></hr>
+              <div className="check-in">
+                <div className="dates-chosen">
+                  <p className="checkinz">Check In</p><p className="checkinz">Check Out</p>
+                  <br/>
+                  <input className='date-selection' type='date' /><input className='date-selection' type='date' />
+                  <br />
+
+                </div>
+                <div className="guest-selection">
+                  <p className="number-guests-booking">Guests</p>
+                  <select className='guest-dropdown'>
+                    <option value='0'>0</option>
+                    <option value='1'>1</option>
+                    <option value='2'>2</option>
+                    <option value='3'>3</option>
+                    <option value='4'>4</option>
+                    <option value='5'>5</option>
+                    <option value='6'>6</option>
+                    <option value='7'>7</option>
+                    <option value='8'>8</option>
+                    <option value='9'>9</option>
+                    <option value='10'>10</option>
+                    <option value='11'>11</option>
+                    <option value='12'>12</option>
+                  </select>
+                </div>
+                <div className="availability-size-reducer">
+                  <input className="login-button" type="submit" value="Check Availability" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
